@@ -1,0 +1,16 @@
+< DOCTYPE html> 
+  <html>
+    <head>
+      <title>Page Title</title>
+    </head>
+    <body>
+      
+      <h1> style="fornt-familyl:verdana;"> Title </h1>
+      <p> style="color:purple;"> bio </p>
+      
+
+      <img src = "https://pupjournal.com/wp-content/uploads/2016/06/westie-on-beach.jpg"
+           
+    </body>
+  </html>
+  
