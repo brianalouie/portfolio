@@ -2,21 +2,65 @@
 <html lang="en-US"> 
 <head> 
 <title>Website</title>
+<style> 
+div.container {
+	width: 100%;
+	border: 1px soild gray;
+}
+
+header, footer{
+	padding: 1em;
+	color: white;
+	background-color: light gray;
+	text-align: center; 
+}
+
+nav ul{
+	list-style-type: none; 
+	padding: 1em;
+}
+
+article{
+	margin-left: 170px;
+	border-left: 1px black;
+	padding: 1em;
+}
+</style> 
 </head>
-<body style="background-color:light gray;"> 
+<body>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Sunset_2007-1.jpg" width="850" heigth="550"> 
-  
+<div class="container">
+
+<header>
+<h1 style="text-align:center;">Title</h1>
+</header>
+
+<nav>
+	<ul> 
+		<li><a href="#">Biography</a>
+		<br>
+		<li><a href="#">Number</a>
+		<br>
+		<li><a href="#">Locations</a>
+</nav> 
+
+<article> 
+<h1>How it all began</h1>
+<p>Family History</p>
+</article>
+
+<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Sunset_2007-1.jpg" width="100%" heigth="550"> 
 <br>
-  
 <q style="text-align:center;">It's just a bad day, not a bad life</q>
-
-<h1 style="text-align:center;">This is a heading</h1>
+ 
+<h2>This is a heading too</h2>
+<h3>This is a heading also</h3>
 
 <p>This is a paragraph</p>
 <br>
-<p>This is a paragraph</p>
+<p>This is a paragraph</p> -->
 
+<footer>Copyright &copy; brianalouie.com</footer>
 
 </body>
 </html>
